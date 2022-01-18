@@ -14,7 +14,7 @@ Esse projeto teve como objetivo, como criar a estrutura de um aplicação em Rea
 * Fast Refresh
 
 
-link das dependências 👉 https://react-native.rocketseat.dev/android/windows
+link para configurar o ambiente 👉 https://react-native.rocketseat.dev/android/windows
 
 ## ✅ Pré-requisitos para clonar
 
