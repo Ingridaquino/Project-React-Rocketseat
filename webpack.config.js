@@ -14,7 +14,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     devServer: {
         static: {
@@ -31,7 +31,7 @@ module.exports = {
     module: {
         rules: [
     {
-        test: /.jsx$/,
+        test: /.(j|t)sx$/,
         exclude: /node_modules/,
         use:{
             loader: 'babel-loader',
