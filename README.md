@@ -1,6 +1,6 @@
 ## Fundamentos do ReactJs
 
-Esse projeto teve como objetivo, como criar a estrutura de um aplicação em React. Apreendi conceitos importantes do React como componentes, propriedades, estatdos e hooks além de aplicar o TypeScript no projeto para adicionar tipagem estática à aplicação.
+Esse projeto teve como objetivo, como criar a estrutura de um aplicação em React. Apreendi conceitos importantes do React como componentes, propriedades, estados e hooks além de aplicar o TypeScript no projeto para adicionar tipagem estática à aplicação.
 
 #### Esse projeto foi realizado através do estudo na ROCKETSEAT 
 
@@ -13,6 +13,8 @@ Esse projeto teve como objetivo, como criar a estrutura de um aplicação em Rea
 * Source Maps
 * Fast Refresh
 
+
+link das dependências 👉 https://react-native.rocketseat.dev/android/windows
 
 ## ✅ Pré-requisitos para clonar
 
