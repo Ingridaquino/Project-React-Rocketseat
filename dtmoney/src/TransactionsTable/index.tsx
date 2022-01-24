@@ -1,0 +1,42 @@
+import { Container } from "./styles";
+
+export function  TransactionsTable () {
+    return (
+      <Container>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Titulo</th>
+                      <th>Valor</th>
+                      <th>Catagoria</th>
+                      <th>Data</th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+                      <td className="title">Desenvolvimento de website</td>
+                      <td>R$12.000</td>
+                      <td>Desenvolvimento</td>
+                      <td>20/02/2021</td>
+                  </tr>
+
+                  <tr>
+                      <td className="title">Desenvolvimento de website</td>
+                      <td>R$12.000</td>
+                      <td>Desenvolvimento</td>
+                      <td>20/02/2021</td>
+                  </tr>
+
+                  <tr>
+                      <td className="title">Desenvolvimento de website</td>
+                      <td>R$12.000</td>
+                      <td>Desenvolvimento</td>
+                      <td>20/02/2021</td>
+                  </tr>
+              </tbody>
+
+          </table>
+      </Container>
+    );
+};

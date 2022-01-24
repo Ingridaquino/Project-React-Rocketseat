@@ -1,5 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.main `
-    max-width: 1120px
+    max-width: 1120px;
+    margin: 0 auto;
+    color: var(--text-body);
+
 `;

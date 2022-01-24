@@ -6,10 +6,12 @@ export const GlobalStyle = createGlobalStyle`
       --red: #E52E4D;
       --blue: #5429cc;
 
+      --green: #33cc95;
+
       --blue-light: #6933ff;
 
       --text-title: #363f5f;
-      --text-body: #969cb3;
+      --text-body: #333235;
 
       --shape: #ffff;
     }
@@ -34,7 +36,6 @@ export const GlobalStyle = createGlobalStyle`
 
     h1, h2, h3, h4, h5, h6, strong {
         font-weight: 600;
-        color: red;
     }
 
       // font-size: 16px (DESKTOP)
