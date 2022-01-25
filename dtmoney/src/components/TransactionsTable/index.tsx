@@ -1,6 +1,15 @@
+import {useEffect} from "react";
+import { api } from "../../Services/api";
 import { Container } from "./styles";
 
 export function  TransactionsTable () {
+    
+    useEffect(() => {
+        //rodar api
+        api.get('/transactions')
+        .then(response => console.log(response.data))
+    }, []);
+
     return (
       <Container>
           <table>
