@@ -5,6 +5,7 @@ import { Header } from "./components/Header/Header";
 import { Dashboard } from "./components/Dashboard";
 
 import { GlobalStyle } from "./styles/global";
+import { NewTransactionModal } from './components/NewTransactionModal';
 
 Modal.setAppElement('#root'); // Acessibilidade, para o Modal não ficar no body
  
@@ -24,11 +25,12 @@ export function App() {
   return (
     <>
         <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
+        
         <Dashboard />
 
-        <Modal isOpen={isNewTransactionModalOpen} onRequestClose={handleCloseNewTransactionModal}>
-            <h2>Cadastra transações</h2>
-        </Modal>
+        <NewTransactionModal isOpen= {isNewTransactionModalOpen} 
+            onRequestClose={handleCloseNewTransactionModal}
+        />
 
         <GlobalStyle />   
     </>
