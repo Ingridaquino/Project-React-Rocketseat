@@ -17,16 +17,16 @@ createServer({
           title: 'Frelancer de website',
           type: 'deposit',
           category: 'Dev',
-          amount: 6.000,
-          created: new Date('2021-02-12 09:00:00'),
+          amount: 6000,
+          createdAt: new Date('2018-07-31'),
         },
         {
           id: 2,
           title: 'Aluguel',
           type: 'withdraw',
           category: 'Casa',
-          amount: 1.000,
-          created: new Date('2021-02-20 15:00:00'),
+          amount: 1000,
+          createdAt: new Date('2018-08-20'),
         },
       ]
     })
