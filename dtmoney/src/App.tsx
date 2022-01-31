@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal';
 
 import { Header } from "./components/Header/Header";
@@ -6,7 +6,7 @@ import { Dashboard } from "./components/Dashboard";
 
 import { GlobalStyle } from "./styles/global";
 import { NewTransactionModal } from './components/NewTransactionModal';
-import { TransactionsProvider } from './TransactionsContext';
+import { TransactionProvider } from './Hooks/useTransactions';
 
 Modal.setAppElement('#root'); // Acessibilidade, para o Modal não ficar no body
  
@@ -24,7 +24,7 @@ export function App() {
     }
 
   return (
-    <TransactionsProvider>
+    <TransactionProvider>
         <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
         
         <Dashboard />
@@ -34,6 +34,6 @@ export function App() {
         />
 
         <GlobalStyle />   
-    </TransactionsProvider>
+    </TransactionProvider>
   );
 }
